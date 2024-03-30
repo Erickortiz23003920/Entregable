@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pedidos</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <form id="formulario">
+        <label for="codigo">Código del Producto:</label>
+        <input type="text" id="codigo" disabled>
+    
+        <label for="nombre">Nombre del Producto:</label>
+        <input type="text" id="nombre" disabled>
+    
+        <label for="proveedor">Proveedor:</label>
+        <select id="proveedor" required>
+            <option value="Proveedor A">Proveedor A</option>
+            <option value="Proveedor B">Proveedor B</option>
+            <!-- Agrega más opciones aquí -->
+        </select>
+    
+        <label for="cantidad">Cantidad Deseada:</label>
+        <input type="number" id="cantidad" min="1" required>
+    
+        <button type="submit">Confirmar Pedido</button>
+    </form>
+    
+
+
+<script src="cuarto.js"></script>
+
+</body>
+</html>

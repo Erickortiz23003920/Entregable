@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Informacion de productos</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <form id="formulario">
+        <label for="codigo">Código:</label>
+        <input type="text" id="codigo" disabled>
+        <!-- El campo de código está deshabilitado -->
+
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" required>
+
+        <label for="proveedor">Proveedor:</label>
+        <input type="text" id="proveedor" required>
+
+        <label for="descripcion">Descripción:</label>
+        <input type="text" id="descripcion" required>
+
+        <label for="categoria">Categoría:</label>
+        <input type="text" id="categoria" required>
+
+        <label for="existencia">Existencia:</label>
+        <input type="text" id="existencia" required>
+
+        <button type="button" onclick="resetForm()">Eliminar Cambios</button>
+        <button type="submit">Guardar Cambios</button>
+    </form>
+
+    <script>
+        function resetForm() {
+            // Implementa la lógica para restaurar los cambios al estado original
+            // (por ejemplo, rellenar los campos con los valores originales).
+        }
+    </script>
+
+
+
+    <script src="tercero.js"></script>
+</body>
+</html>
