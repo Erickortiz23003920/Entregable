@@ -1,0 +1,1 @@
+no logre terminar todo principalmente logre hacer mi conexion abase de datos pero me aprecia el error de que .then no es una funcion pero no se porque me lo estaba leyendo asi y ahi fue mas quetodo que me estanque y no pude continuar igual por cuestion de tiempo personal 
